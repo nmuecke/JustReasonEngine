@@ -1,0 +1,3 @@
+#!/bin/bash
+phpdoc -d engine/,extentions/,functions/,config/,skins/,style/ -t docs/ -o HTML:frames:earthli -s on -p on -pp on -dn JustReason_Engine -dc JustReasonEngine
+
